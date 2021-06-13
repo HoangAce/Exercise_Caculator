@@ -91,7 +91,7 @@ const updateCalculatorState = (key, calculator, calculatedValue, displayedNum) =
             displayedNum
     }
 
-    if (keyType === 'clear' && key.textContent === 'AC') {
+    if (keyType === 'clear') {
         calculator.dataset.firstValue = ''
         calculator.dataset.modValue = ''
         calculator.dataset.operator = ''
