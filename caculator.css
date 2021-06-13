@@ -1,0 +1,219 @@
+.container {
+    position: relative;
+    width: 424px;
+    height: 506px;
+}
+
+.calculator {
+    position: absolute;
+    width: 424px;
+    height: 506px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.calculator__display {
+    /* position: absolute; */
+    position: absolute;
+    width: 373px;
+    height: 85px;
+    left: 25px;
+    top: 20px;
+    background: rgba(196, 196, 196, 0.21);
+    border: 1px solid rgba(122, 65, 65, 0.09);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: right;
+    color: #000000;
+}
+
+.calculator__keys {
+    background-color: #999;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.calculator__keys>* {
+    background-color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.calculator__keys>*:active::before,
+.calculator__keys>.is-depressed::before {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.key--operator {
+    background-color: #eee;
+}
+
+.key--operator--add {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 25px;
+    top: 119px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.key--operator--subtract {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 121px;
+    top: 119px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.key--operator--multiply {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 217px;
+    top: 119px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.key--operator--divide {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 316px;
+    top: 119px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number0 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 25px;
+    top: 417px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number1 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 25px;
+    top: 342px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number2 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 121px;
+    top: 342px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number3 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 217px;
+    top: 342px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number4 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 25px;
+    top: 267px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number5 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 121px;
+    top: 267px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number6 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 217px;
+    top: 267px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number7 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 25px;
+    top: 194px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number8 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 121px;
+    top: 194px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.number9 {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 217px;
+    top: 194px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.decimal {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 121px;
+    top: 417px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.clear {
+    position: absolute;
+    width: 85px;
+    height: 56px;
+    left: 217px;
+    top: 417px;
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.key--equal {
+    position: absolute;
+    width: 82px;
+    height: 279px;
+    left: 316px;
+    top: 194px;
+    background: #4D90FE;
+}
